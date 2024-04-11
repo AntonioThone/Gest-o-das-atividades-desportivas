@@ -16,4 +16,18 @@ public class Pessoa <T> {
     this.nome = nome;
   }
 
+  public int getDataNascimento(){
+    return dataNascimento;
+  }
+  public void setDataNascimento(int dataNascimento){
+    this.dataNascimento = dataNascimento;
+  }
+
+  public String getNacionalidade(){
+    return nacionalidade;
+  }
+  public void setNacionalidade(String nacionalidade){
+    this.nacional = nacionalidade;
+  }
+
 }
