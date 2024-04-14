@@ -1,33 +1,66 @@
-public class Pessoa <T> {
-  private String nome;
-  private int dataNascimento;
-  private String nacionalidade;
+public abstract class Pessoa {
 
-  public Pessoa<T>(String nome, int dataNascimento, String nacionalidade){
-    this.nome = nome;
-    this.dataNascimento = dataNascimento;
-    this.nacionalidade = nacionalidade;
-  }
+    private String nome;
+    private String numeroBilheteIdentidade;
+    private String numeroContribuinte;
+    private String morada;
+    private String telefone;
+    private String email;
 
-  public String getNome(){
-    return nome;
-  }
-  public void setNome(String nome){
-    this.nome = nome;
-  }
+    // Getters
+    public String getNome() {
+        return nome;
+    }
 
-  public int getDataNascimento(){
-    return dataNascimento;
-  }
-  public void setDataNascimento(int dataNascimento){
-    this.dataNascimento = dataNascimento;
-  }
+    public String getNumeroBilheteIdentidade() {
+        return numeroBilheteIdentidade;
+    }
 
-  public String getNacionalidade(){
-    return nacionalidade;
-  }
-  public void setNacionalidade(String nacionalidade){
-    this.nacional = nacionalidade;
-  }
+    public String getNumeroContribuinte() {
+        return numeroContribuinte;
+    }
 
+    public String getMorada() {
+        return morada;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    // Setters
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setNumeroBilheteIdentidade(String numeroBilheteIdentidade) {
+        this.numeroBilheteIdentidade = numeroBilheteIdentidade;
+    }
+
+    public void setNumeroContribuinte(String numeroContribuinte) {
+        this.numeroContribuinte = numeroContribuinte;
+    }
+
+    public void setMorada(String morada) {
+        this.morada = morada;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    // Additional method (example)
+    public String getIdentificacaoCompleta() {
+        return "Nome: " + nome + "\n" +
+                "Bilhete de Identidade: " + numeroBilheteIdentidade + "\n" +
+                "Numero Contribuinte: " + numeroContribuinte;
+    }
 }
