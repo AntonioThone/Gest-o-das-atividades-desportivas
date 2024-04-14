@@ -12,5 +12,4 @@ public abstract class Entidade {
         this.nome = nome;
     }
 
-    // ... Outros métodos da classe ...
 }
