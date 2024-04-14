@@ -21,4 +21,22 @@ public class Partida{
         return posicoes;
     }
 
+    //setters
+
+    public void setCampeonato(Campeonato campeonato) {
+    this.campeonato = campeonato;
+    }
+
+    public void setNumeroPartida(int numeroPartida) {
+        this.numeroPartida = numeroPartida;
+    }
+
+    public void setEquipasParticipantes(List<Equipa> equipasParticipantes) {
+        this.equipasParticipantes = equipasParticipantes;
+    }
+
+    public void setPosicoes(Map<Equipa, Integer> posicoes) {
+        this.posicoes = posicoes;
+    }
+
 }
