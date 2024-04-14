@@ -29,7 +29,7 @@ public class ADLMain {
                     // Chamar métodos para gerenciar espaços (ex.: cadastrar, consultar)
                     break;
                 case 4:
-                    // Chamar métodos para gerenciar sócios dirigentes (ex.: cadastrar, consultar)
+                    //. Chamar métodos para gerenciar sócios dirigentes (ex.: cadastrar, consultar)
                     break;
                 case 5:
                     // Chamar métodos para gerenciar quotas (ex.: cadastrar, consultar)
