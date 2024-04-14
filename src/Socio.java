@@ -10,6 +10,6 @@ private LocalDate dataInscricao;
 private boolean quotasEmDia;
 private List<Quota> quotasEmDivida;
 
-    // ...
+
 
 }
